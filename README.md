@@ -105,6 +105,5 @@ nest g resource Event --no-spec
 - implementar el encontrar todos los eventos de un cliente o empresa.
 
 
-## 🤝 Autor
-### Franco Torrico
+## 🤝 Autor: Franco Torrico
 📌 Proyecto personal para practicar NestJS, Prisma, docker, swagger y lógica de negocio en APIs REST.
