@@ -16,7 +16,7 @@ Este proyecto es una API funcional creada con **NestJS** para gestionar salones 
 - **Consultar evento:** Por id consultas información del evento.
 - **Cancelar evento:** Elimina el evento de la base de datos.
 - **Marcar como confirmado:** Se elimina también de la base para dejar solo eventos pendientes visibles.
-- **actualizar evento:** Se puede actualizar el nombre y la descripción del evento.
+- **Actualizar evento:** Se puede actualizar el nombre y la descripción del evento.
 
 > En esta demo, los eventos cancelados o completados se eliminan directamente para mantener la tabla limpia. En una versión escalada, podrían moverse a una tabla de historial.
 
@@ -30,6 +30,16 @@ Este proyecto es una API funcional creada con **NestJS** para gestionar salones 
 - **Docker** para despliegue rápido
 
 
+## ⚙️ Requisitos previos
+Tener instalado Docker y Docker Compose para levantar la base de datos.
+
+Tener instalado Node.js y pnpm para gestionar dependencias y correr la API.
+
+Puerto 5450 libre para PostgreSQL (puerto mapeado en Docker).
+
+Puerto 8080 libre para PgAdmin.
+
+Configura el archivo .env con las credenciales de la base de datos.
 
 ## 📦 Instalación
 
@@ -38,6 +48,7 @@ Este proyecto es una API funcional creada con **NestJS** para gestionar salones 
 git clone https://github.com/Francotorrico/APIevents
 cd APIevents
 pnpm install
+docker compose up -d
 pnpm start:dev
 ```
 ## 📜 Documentación con Swagger
