@@ -52,6 +52,7 @@ docker compose up -d
 pnpm start:dev
 ```
 ## 📜 Documentación con Swagger
+
 Una vez que la API esté corriendo, podés acceder a la documentación interactiva en:
 
 http://localhost:3000/api
@@ -64,6 +65,18 @@ Probar las peticiones directamente desde el navegador
 
 Consultar ejemplos y modelos de datos
 
+### 🔹 Swagger UI
+A continuación, se muestran capturas de la documentación de la API generada con Swagger:
+
+![Swagger 1](img/Documentacion%20swagger.PNG)
+
+![Swagger 2](img/GET-eventHalls.PNG)
+
+### 🔹 Diagrama Entidad-Relación (DER)
+
+Este es el modelo de base de datos utilizado en el proyecto:
+
+![Diagrama DER](img/Modelo%20Der.PNG)
 
 ## 📋 Validaciones principales
 La fecha de inicio debe ser menor que la de fin.
