@@ -72,6 +72,9 @@ A continuación, se muestran capturas de la documentación de la API generada co
 
 ![Swagger 2](img/GET-eventHalls.PNG)
 
+![Swagger 3](img/GET-eventId.PNG)
+
+
 ### 🔹 Diagrama Entidad-Relación (DER)
 
 Este es el modelo de base de datos utilizado en el proyecto:
